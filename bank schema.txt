@@ -1,0 +1,22 @@
+                                  loan--(loanid,amountissued,remainingbalance,issueddate,customerid);
+
+                                           1 to many
+customer(custid,customername,accountnumber,accountype,amount,loanissue,address,branchid);
+                                                                             1 to many 
+                                                                    account(accountid,accountnumber,accounttype,balanceamount,customerid,);
+
+           1                                                                   1 to many
+                                                                    Transactions(transactionid,transactiontype,accountnumber);
+           to                                                                      
+             1
+
+
+
+
+
+
+
+
+                                                                             
+                                                                              admin(adminid,adminname,branchid,address);
+branch(branchid,branchname)          1 to many
